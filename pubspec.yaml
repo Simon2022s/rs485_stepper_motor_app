@@ -1,0 +1,35 @@
+name: stepper_motor_app
+description: "RS485步进电机控制器 - 通过蓝牙BLE或星闪SLE无线连接控制"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  flutter_blue_plus: ^1.35.3
+  shared_preferences: ^2.3.5
+  hex: ^0.2.0
+  collection: ^1.19.1
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "ruanjian.png"
+  adaptive_icon_background: "#1E1E1E"
+  adaptive_icon_foreground: "ruanjian.png"
+
+flutter:
+  uses-material-design: true
