@@ -105,7 +105,7 @@ MIT License
 
 ## Author
 
-Developed for AdamPower GmbH
+Developed for AdamPower.de
 
 ## Related Links
 
